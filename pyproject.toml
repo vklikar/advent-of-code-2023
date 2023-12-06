@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "advent-of-code-2023"
+version = "0.1.0"
+description = ""
+authors = ["Václav Klikar <30387059+vklikar@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+ruff = "^0.1.7"
+mypy = "^1.7.1"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    # Pyflakes
+    "F",
+    # Pycodestyle
+    "E",
+    "W",
+    # isort
+    "I001"
+]
+
+[tool.mypy]
+pretty = true
+show_column_numbers = true
+ignore_missing_imports = true
+check_untyped_defs = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
