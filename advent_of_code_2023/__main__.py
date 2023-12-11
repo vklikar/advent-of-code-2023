@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from advent_of_code_2023 import day01, day02, day03, day04, day05, day06, day07, day08, day09
+from advent_of_code_2023 import day01, day02, day03, day04, day05, day06, day07, day08, day09, day10
 
 
 def read_input(filename):
@@ -27,6 +27,8 @@ def main():
     print("08B:", day08.solve_part2(read_input("day08.txt")))
     print("09A:", day09.solve_part1(read_input("day09.txt")))
     print("09B:", day09.solve_part2(read_input("day09.txt")))
+    print("10A:", day10.solve_part1(read_input("day10.txt")))
+    print("10B:", day10.solve_part2(read_input("day10.txt")))
 
 
 if __name__ == "__main__":
