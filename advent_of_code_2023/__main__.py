@@ -19,6 +19,7 @@ from advent_of_code_2023 import (
     day16,
     day17,
     day18,
+    day19,
 )
 
 
@@ -64,6 +65,8 @@ def main():
     print("17B:", day17.solve_part2(read_input("day17.txt")))
     print("18A:", day18.solve_part1(read_input("day18.txt")))
     print("18B:", day18.solve_part2(read_input("day18.txt")))
+    print("19A:", day19.solve_part1(read_input("day19.txt")))
+    print("19B:", day19.solve_part2(read_input("day19.txt")))
 
 
 if __name__ == "__main__":
